@@ -42,7 +42,7 @@ export default function Countdown() {
         <h3 className="text-2xl font-bold text-neon glow-text">MAY 18, 2025</h3>
       </div>
 
-      <div className="flex justify-center gap-4 px-4">
+      <div className="flex justify-center gap-1 lg:gap-4 px-4">
         {/* Days */}
         <div className="bg-yellow text-dark p-4 rounded-lg border-2 border-neon hover:border-orange transition-all lg:min-w-[100px]">
           <p className="text-3xl font-bold">{timeLeft.days}</p>

@@ -1,26 +1,24 @@
 export const speakers = [
   {
+    id: 2,
+    img:"/saad-lakhi.jpg",
+    name: "Saad Lakhi",
+    role: "FOUNDER & CEO, SRL COMMERCIEY",
+    topic: "Ecommerce Growth",
+  },
+  {
     id: 1,
+    img:"/haris-malkani.jpg",
     name: "Haris Malkani",
     role: "COO, SRL COMMERCIEY",
     topic: "Brand Awareness",
   },
-  {
-    id: 2,
-    name: "Saad Lakhi",
-    role: "CEO, SRL COMMERCIEY",
-    topic: "Ecommerce Growth",
-  },
-  {
-    id: 3,
-    name: "Mohsin",
-    role: "Sourcing Expert",
-    topic: "Local Sourcing",
-  },
+
   {
     id: 4,
-    name: "Sadiq",
-    role: "Export Specialist",
+    img:"/sadiq.jpg",
+    name: "M. Sadiq",
+    role: "Bussiness Growth Manager (Alibaba.com.pk)",
     topic: "How to Export",
   },
 ];

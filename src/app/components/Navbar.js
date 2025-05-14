@@ -1,6 +1,14 @@
-"use client"
+"use client";
 import { useState, useEffect } from "react";
-import { FaTwitter, FaLinkedin, FaInstagram, FaRegCalendarAlt, FaBars, FaTimes } from "react-icons/fa";
+import {
+  FaTwitter,
+  FaLinkedin,
+  FaInstagram,
+  FaRegCalendarAlt,
+  FaBars,
+  FaTimes,
+  FaUsers,
+} from "react-icons/fa";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 
 export default function Navbar() {
@@ -16,31 +24,45 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "py-2 bg-dark/90 backdrop-blur-sm" : "py-4 bg-dark"} border-b border-neon`}>
+    <nav
+      className={`fixed w-full z-50 transition-all duration-300 ${
+        scrolled ? "py-2 bg-dark/90 backdrop-blur-sm" : "py-4 bg-dark"
+      } border-b border-neon`}
+    >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="text-2xl font-bold text-neon hover:text-yellow transition-colors">
-            <span className="glow-text">OMYS</span> <span className="text-yellow">Summit</span>
+            <span className="glow-text">OMYS</span>{" "}
+            <span className="text-yellow">Summit</span>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8 items-center">
-            <a 
-              href="#schedule" 
+            <a
+              href="#schedule"
               className="flex items-center text-orange hover:text-neon group transition-colors"
             >
               <FaRegCalendarAlt className="mr-2 group-hover:scale-110 transition-transform" />
               <span className="font-medium">SCHEDULE</span>
             </a>
-            <a 
-              href="https://maps.app.goo.gl/VuwcmgJ93QWNp8TN9" target="_blank" 
+            <a
+              href="https://maps.app.goo.gl/VuwcmgJ93QWNp8TN9"
+              target="_blank"
               className="flex items-center text-orange hover:text-neon group transition-colors"
             >
               <HiOutlineLocationMarker className="mr-2 group-hover:scale-110 transition-transform" />
               <span className="font-medium">VENUE</span>
             </a>
-            
+            <a
+              href="https://chat.whatsapp.com/KhMDP0GnCWEA1IuioiVvil"
+              className="flex items-center text-orange hover:text-neon group transition-colors"
+            >
+              <FaUsers className="mr-2 group-hover:scale-110 transition-transform" />
+
+              <span className="font-medium">COMMUNITY</span>
+            </a>
+
             <div className="flex space-x-5 ml-4">
               <a href="#" aria-label="Twitter">
                 <FaTwitter className="text-xl text-neon hover:text-yellow cursor-pointer transition-colors hover:scale-125" />
@@ -55,7 +77,7 @@ export default function Navbar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="md:hidden text-neon focus:outline-none"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Menu"
@@ -71,21 +93,30 @@ export default function Navbar() {
         {/* Mobile Menu */}
         <div className={`md:hidden ${isOpen ? "block" : "hidden"} pt-4 pb-6`}>
           <div className="flex flex-col space-y-4">
-             <a 
-              href="#schedule" 
+            <a
+              href="#schedule"
               className="flex items-center text-orange hover:text-neon group transition-colors"
             >
               <FaRegCalendarAlt className="mr-2 group-hover:scale-110 transition-transform" />
               <span className="font-medium">SCHEDULE</span>
             </a>
-            <a 
-              href="https://maps.app.goo.gl/VuwcmgJ93QWNp8TN9" target="_blank" 
+            <a
+              href="https://maps.app.goo.gl/VuwcmgJ93QWNp8TN9"
+              target="_blank"
               className="flex items-center text-orange hover:text-neon group transition-colors"
             >
               <HiOutlineLocationMarker className="mr-2 group-hover:scale-110 transition-transform" />
               <span className="font-medium">VENUE</span>
             </a>
-            
+            <a
+              href="https://chat.whatsapp.com/KhMDP0GnCWEA1IuioiVvil"
+              className="flex items-center text-orange hover:text-neon group transition-colors"
+            >
+              <FaUsers className="mr-2 group-hover:scale-110 transition-transform" />
+
+              <span className="font-medium">COMMUNITY</span>
+            </a>
+
             <div className="flex justify-center space-x-6 pt-4">
               <a href="#" aria-label="Twitter">
                 <FaTwitter className="text-2xl text-neon hover:text-yellow cursor-pointer transition-colors" />
