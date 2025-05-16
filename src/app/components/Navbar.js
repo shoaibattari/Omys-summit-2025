@@ -42,45 +42,45 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8 items-center">
-            <a
+            {/* <a
               href="#schedule"
-              className="flex items-center text-orange hover:text-neon group transition-colors"
+              className="flex items-center text-white hover:text-neon group transition-colors"
             >
               <FaRegCalendarAlt className="mr-2 group-hover:scale-110 transition-transform" />
-              <span className="font-medium">SCHEDULE</span>
-            </a>
+              <span className="font-bold">SCHEDULE</span>
+            </a> */}
             <a
               href="https://maps.app.goo.gl/VuwcmgJ93QWNp8TN9"
               target="_blank"
-              className="flex items-center text-orange hover:text-neon group transition-colors"
+              className="flex items-center text-white hover:text-neon group transition-colors"
             >
               <HiOutlineLocationMarker className="mr-2 group-hover:scale-110 transition-transform" />
-              <span className="font-medium">VENUE</span>
+              <span className="font-bold">VENUE</span>
             </a>
             <a
               href="https://chat.whatsapp.com/KhMDP0GnCWEA1IuioiVvil"
-              className="flex items-center text-orange hover:text-neon group transition-colors"
+              className="flex items-center text-white hover:text-neon group transition-colors"
             >
               <FaUsers className="mr-2 group-hover:scale-110 transition-transform" />
 
-              <span className="font-medium">COMMUNITY</span>
+              <span className="font-bold">COMMUNITY</span>
             </a>
             <a
               href="https://www.canva.com/design/DAGnanxYAV8/d9WdNtmKjV3zxL73yRUVDw/edit?utm_content=DAGnanxYAV8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-              className="flex items-center text-orange hover:text-neon group transition-colors"
+              className="flex items-center text-white hover:text-neon group transition-colors"
             >
               <CgProfile className="mr-2 group-hover:scale-110 transition-transform" />
 
-              <span className="font-medium">DP (Digital Profile)</span>
+              <span className="font-bold">DP (Digital Profile)</span>
             </a>
             <a
               href="/EntryPass.jpg"
               download="EntryPass.jpg"
-              className="flex items-center text-orange hover:text-neon group transition-colors"
+              className="flex items-center text-white hover:text-neon group transition-colors"
             >
               <FaIdCard  className="mr-2 group-hover:scale-110 transition-transform" />
 
-              <span className="font-medium">Entry Pass</span>
+              <span className="font-bold">Entry Pass</span>
             </a>
             <div className="flex space-x-5 ml-4">
               <a href="#" aria-label="Twitter">
@@ -102,55 +102,55 @@ export default function Navbar() {
             aria-label="Menu"
           >
             {isOpen ? (
-              <FaTimes className="text-2xl hover:text-yellow transition-colors" />
+              <FaTimes className="text-2xl hover:text-yellow transition-colors cursor-pointer" />
             ) : (
-              <FaBars className="text-2xl hover:text-yellow transition-colors" />
+              <FaBars className="text-2xl hover:text-yellow transition-colors cursor-pointer" />
             )}
           </button>
         </div>
 
         {/* Mobile Menu */}
         <div className={`md:hidden ${isOpen ? "block" : "hidden"} pt-4 pb-6`}>
-          <div className="flex flex-col h-screen mt-12 space-y-4">
-            <a
+          <div className="flex flex-col mt-12 space-y-4">
+            {/* <a
               href="#schedule"
-              className="flex items-center text-orange hover:text-neon group transition-colors"
+              className="flex items-center text-white hover:text-neon group transition-colors"
             >
               <FaRegCalendarAlt className="mr-2 group-hover:scale-110 transition-transform text-2xl" />
-              <span className="font-medium text-2xl">SCHEDULE</span>
-            </a>
+              <span className="font-bold text-2xl">SCHEDULE</span>
+            </a> */}
             <a
               href="https://maps.app.goo.gl/VuwcmgJ93QWNp8TN9"
               target="_blank"
-              className="flex items-center text-orange hover:text-neon group transition-colors"
+              className="flex items-center text-white hover:text-neon group transition-colors"
             >
               <HiOutlineLocationMarker className="mr-2 group-hover:scale-110 transition-transform text-2xl" />
-              <span className="font-medium text-2xl">VENUE</span>
+              <span className="font-bold text-2xl">VENUE</span>
             </a>
             <a
               href="https://chat.whatsapp.com/KhMDP0GnCWEA1IuioiVvil"
-              className="flex items-center text-orange hover:text-neon group transition-colors"
+              className="flex items-center text-white hover:text-neon group transition-colors"
             >
               <FaUsers className="mr-2 group-hover:scale-110 transition-transform text-2xl" />
 
-              <span className="font-medium text-2xl">COMMUNITY</span>
+              <span className="font-bold text-2xl">COMMUNITY</span>
             </a>
             <a
               href="https://www.canva.com/design/DAGnanxYAV8/d9WdNtmKjV3zxL73yRUVDw/edit?utm_content=DAGnanxYAV8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-              className="flex items-center text-orange hover:text-neon group transition-colors"
+              className="flex items-center text-white hover:text-neon group transition-colors"
             >
               <CgProfile className="mr-2 group-hover:scale-110 transition-transform text-2xl" />
 
-              <span className="font-medium text-2xl">DP (Digital Profile)</span>
+              <span className="font-bold text-2xl">DP (Digital Profile)</span>
             </a>
             <a
               href="/EntryPass.jpg"
               download="EntryPass.jpg"
-              className="flex items-center text-orange hover:text-neon group transition-colors"
+              className="flex items-center text-white hover:text-neon group transition-colors"
             >
               <FaIdCard className="mr-2 group-hover:scale-110 transition-transform text-2xl" />
 
-              <span className="font-medium text-2xl">Entry Pass</span>
+              <span className="font-bold text-2xl">Entry Pass</span>
             </a>
 
             <div className="flex justify-center space-x-6 pt-12">

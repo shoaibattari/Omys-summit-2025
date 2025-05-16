@@ -13,7 +13,13 @@ export const speakers = [
     role: "COO, SRL COMMERCIEY",
     topic: "Brand Awareness",
   },
-
+{
+    id: 3,
+    img:"/rauf.jpg",
+    name: "M. Sadiq",
+    role: "Bussiness Growth Manager (Alibaba.com.pk)",
+    topic: "How to Export",
+  },
   {
     id: 4,
     img:"/sadiq.jpg",

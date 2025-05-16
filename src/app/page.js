@@ -52,11 +52,6 @@ export default function Home() {
       src: "/video3.mp4",
       caption: "Introduction Event",
     },
-    {
-      type: "video",
-      src: "/video4.mp4",
-      caption: "Introduction Event",
-    },
   ];
 
   return (
@@ -73,7 +68,7 @@ export default function Home() {
       </div>
       <Countdown />
       <Speakers />
-      <Schedule />
+      {/* <Schedule /> */}
       <Sponsors />
       <CTA />
       <Leadership />

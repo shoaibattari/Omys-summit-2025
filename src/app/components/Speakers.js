@@ -83,7 +83,7 @@ export default function Speakers() {
           <FaBolt className="text-neon text-2xl ml-3 glow" />
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {speakers.map((speaker, index) => (
             <motion.div
               key={index}
@@ -111,7 +111,7 @@ export default function Speakers() {
                     width={100}
                     height={100}
                     sizes="100vw"
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-cover"
                   />
                 </div>
                 {/* <div>
