@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaTwitter, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
 
 export default function Footer() {
@@ -10,11 +11,12 @@ export default function Footer() {
           <FaInstagram className="text-xl hover:text-secondary cursor-pointer" />
           <FaFacebook className="text-xl hover:text-secondary cursor-pointer" />
         </div>
-        <p className="text-lg mb-4">
-          THE OKHAI MEMON YOUTH SERVICES
-        </p>
+        <p className="text-lg mb-4">THE OKHAI MEMON YOUTH SERVICES</p>
         <p className="text-black">
           © 2025 OMYS Million Dollar Summit. All rights reserved.
+        </p>
+        <p className="text-black">
+          App Created <Link href={"https://shoaibmemon.vercel.app/"}> Shoaib Abdul Sattar Khosa</Link>
         </p>
       </div>
     </footer>

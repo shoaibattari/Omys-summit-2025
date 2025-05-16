@@ -31,14 +31,30 @@ export default function Home() {
       alt: "main event",
       caption: "Event Details",
     },
-    // {
-    //   type: "video",
-    //   src: "/video1.mp4",
-    //   caption: "Introduction Event",
-    // },
-     {
+      {
+      type: "image",
+      src: "/general-invitation.jpg",
+      alt: "main event",
+      caption: "Event Details",
+    },
+    {
+      type: "video",
+      src: "/video1.mp4",
+      caption: "Introduction Event",
+    },
+    {
       type: "video",
       src: "/video2.mp4",
+      caption: "Introduction Event",
+    },
+    {
+      type: "video",
+      src: "/video3.mp4",
+      caption: "Introduction Event",
+    },
+    {
+      type: "video",
+      src: "/video4.mp4",
       caption: "Introduction Event",
     },
   ];

@@ -29,7 +29,7 @@ const Gallery = ({ mediaItems }) => {
   return (
     <div className="gallery-container">
       {/* Thumbnail Grid */}
-      <div className="grid lg:grid-cols-2 gap-4 mb-8">
+      <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
         {mediaItems.map((item, index) => (
           <div
             key={index}
