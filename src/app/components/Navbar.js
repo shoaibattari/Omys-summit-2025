@@ -66,7 +66,7 @@ export default function Navbar() {
               <span className="font-bold">COMMUNITY</span>
             </a>
             <a
-              href="https://www.canva.com/design/DAGnanxYAV8/d9WdNtmKjV3zxL73yRUVDw/edit?utm_content=DAGnanxYAV8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              href={"https://wa.me/+923313416850"}
               className="flex items-center text-white hover:text-neon group transition-colors"
             >
               <CgProfile className="mr-2 group-hover:scale-110 transition-transform" />
@@ -78,7 +78,7 @@ export default function Navbar() {
               download="EntryPass.jpg"
               className="flex items-center text-white hover:text-neon group transition-colors"
             >
-              <FaIdCard  className="mr-2 group-hover:scale-110 transition-transform" />
+              <FaIdCard className="mr-2 group-hover:scale-110 transition-transform" />
 
               <span className="font-bold">Entry Pass</span>
             </a>
@@ -136,7 +136,7 @@ export default function Navbar() {
               <span className="font-bold text-2xl">COMMUNITY</span>
             </a>
             <a
-              href="https://www.canva.com/design/DAGnanxYAV8/d9WdNtmKjV3zxL73yRUVDw/edit?utm_content=DAGnanxYAV8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              href={"https://wa.me/+923313416850"}
               className="flex items-center text-white hover:text-neon group transition-colors"
             >
               <CgProfile className="mr-2 group-hover:scale-110 transition-transform text-2xl" />
