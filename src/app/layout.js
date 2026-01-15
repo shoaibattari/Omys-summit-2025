@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "OMYS Million Dollar Summit 2025",
-  description: "Learn, Grow, Lead in Ecommerce",
+  title: "Omj Digital Marketing ",
+  description: "Omj Digital Marketing Female Online Student Registration",
 };
 
 export default function RootLayout({ children }) {
